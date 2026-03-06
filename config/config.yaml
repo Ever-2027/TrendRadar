@@ -123,7 +123,7 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-    - id: "HackerNews"
+    - id: "Hacker-News-AI"
       name: "Hacker News AI"
       url: "https://hnrss.org/newest?q=AI"
       # max_age_days: 1               # 示例：只推送1天内的文章
@@ -139,9 +139,14 @@ rss:
        url: "https://www.jiqizhixin.com/rss"
        max_age_days: 3
 
-     - id: "openai"
-       name: "OpenAI博客"
+     - id: "open-ai"
+       name: "Open AI 博客"
        url: "https://openai.com/news/rss.xml"
+       max_age_days: 3
+
+      - id: "Google-AI-Blog"
+       name: "Google AI Blog"
+       url: "https://blog.google/technology/ai/rss/"
        max_age_days: 3
     
      - id: "yahoo-finance"
