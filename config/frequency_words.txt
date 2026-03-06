@@ -155,15 +155,15 @@
 
 /深度求索|幻方量化|\bDeepSeek\b/ => DeepSeek
 
-/华为|鸿蒙|盘古|\bHUAWEI\b|\bHarmonyOS\b/ => 华为
+/鸿蒙|盘古|昇腾|\bHarmonyOS\b/ => 华为
 
-/小米|\bMiMo\b|\bMiLM\b/  => 小米
+/\bMiMo\b|\bMiLM\b/  => 小米
 
 /宇树|王兴兴|\bUnitree\b/ => 宇树机器人
 
 /字节|抖音|\bByteDance\b|\bTikTok\b|\bDouyin\b|豆包|\bSeed Robotics\b|\bSeedance\b|\bSeedream\b|\bSeed Prover\b/ => 字节跳动
 
-/腾讯|元宝|\bTencent HY\b|\bHunyuan\b/ => 腾讯
+/元宝|\bHunyuan\b/ => 腾讯
 
 /Qwen|通义千问/ => 阿里
 
@@ -171,7 +171,7 @@
 
 /\bPhi\b|\bMAI\b|\bAzure AI Foundry\b|\bCopilot\b/ => 微软
 
-/\bGemini\b|\bDeepMind\b|\bGenie\b/ => 谷歌
+/\bGemini\b|\bDeepMind\b|\bGenie\b|\bTensorFlow\b|\bWaymo\b/ => 谷歌
 
 /Meta|Vibes|Llama/ => Meta
 
