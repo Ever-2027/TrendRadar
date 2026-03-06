@@ -167,11 +167,11 @@
 
 /Qwen|通义千问/ => 阿里
 
-/特斯拉|\bGrok|\bxAI\b/ => 特斯拉
+/\bGrok|\bxAI\b/ => 特斯拉
 
-/微软|\bMicrosoft\b|\bPhi\b|\bMAI\b|\bAzure AI Foundry\b|\bCopilot\b/ => 微软
+/\bPhi\b|\bMAI\b|\bAzure AI Foundry\b|\bCopilot\b/ => 微软
 
-/谷歌|\bGoogle\b|\bGemini\b|\bDeepMind\b|\bGenie\b/ => 谷歌
+/\bGemini\b|\bDeepMind\b|\bGenie\b/ => 谷歌
 
 /Meta|Vibes|Llama/ => Meta
 
