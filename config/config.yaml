@@ -123,11 +123,47 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-    - id: "Hacker News AI"
-      name: "Hacker News AI"
-      url: "https://hnrss.org/newest?q=AI"
-      # max_age_days: 1               # 示例：只推送1天内的文章
-    
+  
+     - id: "jiqizhixin"
+       name: "机器之心"
+       url: "https://www.jiqizhixin.com/rss"
+      # max_age_days: 1
+       
+     - id: "arXiv cs.LG"
+       name: "arXiv 机器学习"
+       url: "https://rss.arxiv.org/rss/cs.LG"
+      # max_age_days: 3  
+
+     - id: "arXiv cs.CV"
+       name: "arXiv 计算机视觉"
+       url: "https://rss.arxiv.org/rss/cs.CV"
+      # max_age_days: 3  
+
+     - id: "Open Ai"
+       name: "Open AI 博客"
+       url: "https://openai.com/news/rss.xml"
+     #  max_age_days: 3
+
+     - id: "Google AI Blog"
+       name: "Google AI Blog"
+       url: "https://blog.google/technology/ai/rss/"
+     #  max_age_days: 3
+       
+     - id: "Google DeepMind Blog"
+       name: "Google DeepMind"
+       url: "https://deepmind.google/blog/rss.xml"
+      # max_age_days: 3
+
+     - id: "Hugging Face Blog"
+       name: "Hugging Face 博客"
+       url: "https://huggingface.co/blog/feed.xml"
+     #  max_age_days: 3
+
+     - id: "NVIDIA Technical Blog"
+       name: "英伟达技术博客"
+       url: "https://developer.nvidia.com/blog/feed"
+     #  max_age_days: 3
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
