@@ -163,7 +163,7 @@
 
 /文心一言|\bERNIE\b|\bApollo\b/ =>百度
 
-/字节|抖音|\bByteDance\b|\bTikTok\b|\bDouyin\b|豆包|\bSeed Robotics\b|\bSeedance\b|\bSeedream\b|\bSeed Prover\b/ => 字节跳动
+/豆包|\bSeed Robotics\b|\bSeedance\b|\bSeedream\b|\bSeed Prover\b/ => 字节跳动
 
 /元宝|\bHunyuan\b/ => 腾讯
 
