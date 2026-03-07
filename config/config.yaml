@@ -144,12 +144,12 @@ rss:
      #  max_age_days: 3
 
      - id: "Google AI Blog"
-       name: "Google AI Blog"
+       name: "Google AI 博客"
        url: "https://blog.google/technology/ai/rss/"
      #  max_age_days: 3
        
      - id: "Google DeepMind Blog"
-       name: "Google DeepMind"
+       name: "Google DeepMind 博客"
        url: "https://deepmind.google/blog/rss.xml"
       # max_age_days: 3
 
